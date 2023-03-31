@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeaa0c21-7e25-4166-ac36-0f466520b45b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/GoogleBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/pages/GooglePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/SearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/Web3Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Extensions/Coinbase-Wallet-extension.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Extensions/MetaMask.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Extensions/Phantom.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Extensions/Ronin-Wallet.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/FE/Search.feature" afterDir="false" />
+    <list default="true" id="aeaa0c21-7e25-4166-ac36-0f466520b45b" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/CommonBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/GoogleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/GoogleBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/pages/GooglePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/pages/GooglePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/SearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/BrowserUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/BrowserConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/FE/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/FE/Search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +65,28 @@
       <recent name="C:\Users\aliri\IdeaProjects\JavaTestingFramework\src\test\resources" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomationFramework.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomationFramework.runners" />
+      <option name="MAIN_CLASS_NAME" value="AutomationFramework.runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,6 +96,29 @@
       <option name="presentableId" value="Default" />
       <updated>1679665837761</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1680261166748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261166748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

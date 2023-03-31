@@ -6,14 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"json:target/cucumber.json",
-                "html:target/default-html-reports",
-                "me.jvt.cucumber.report.PrettyReports:target",
-                "pretty"
+        plugin = {"pretty",
+                "html:./target/report/GoogleReport.html"
         },
         features = {"src/test/resources/Features"},
-        glue = {"io/communityGaming/step_definitions"},
         publish = false,
+        glue = {"AutomationFramework/step_definitions"},
         tags = "@Search",
         dryRun =false
 )
