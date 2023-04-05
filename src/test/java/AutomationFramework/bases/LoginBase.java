@@ -8,6 +8,8 @@ import org.openqa.selenium.Alert;
 public class LoginBase {
     private WebDriver driver;
 
+    private Alert alert;
+
     public LoginBase(WebDriver driver) {
         this.driver = driver;
     }
@@ -28,11 +30,13 @@ public class LoginBase {
         loginPO.getSubmitButton().click();
     }
 
-    public void checkLoginAlert(){
-        Alert alert = driver.switchTo().alert();
+    public void checkLoginAlert(String mssg){
+        alert = driver.switchTo().alert();
         String alertText = alert.getText();
-        Assert.assertTrue(alertText.equals("Login OK"));
+        Assert.assertTrue(alertText.equals(mssg));
+    }
 
+    public void clickOnAlertMessage(){
         alert.accept();
     }
 }

@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty",
-                "html:./target/report/GoogleReport.html"
+                "html:./target/report/LoginReport.html"
         },
         features = {"src/test/resources/Features"},
         publish = false,

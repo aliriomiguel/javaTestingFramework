@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeaa0c21-7e25-4166-ac36-0f466520b45b" name="Changes" comment="added full search scenario">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/LoginBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/pages/LoginPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/FE/Login.feature" afterDir="false" />
+    <list default="true" id="aeaa0c21-7e25-4166-ac36-0f466520b45b" name="Changes" comment="added login scenario for login with privacy policy login test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/CommonBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/CommonBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/GoogleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/GoogleBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/pages/GooglePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/pages/GooglePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/LoginBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/LoginBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/CommonSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/SearchSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/BrowserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/utilities/BrowserConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/FE/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/FE/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/FE/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/FE/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680266832764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added login scenario for login with privacy policy login test">
+      <created>1680703604290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680703604290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added full search scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="added full search scenario" />
+    <MESSAGE value="added login scenario for login with privacy policy login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login scenario for login with privacy policy login test" />
   </component>
 </project>

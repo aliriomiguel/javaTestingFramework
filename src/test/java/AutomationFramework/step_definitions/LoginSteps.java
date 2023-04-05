@@ -1,10 +1,13 @@
 package AutomationFramework.step_definitions;
 
 import AutomationFramework.bases.LoginBase;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import AutomationFramework.utilities.BrowserConfig;
+import org.junit.jupiter.api.AfterEach;
+
 public class LoginSteps {
 
     @And("I add username {string} and password {string}")
@@ -25,11 +28,10 @@ public class LoginSteps {
         base.clickSubmitLoginButton();
     }
 
-    @Then("I see the alert message with login ok")
-    public void checkAlertMessageText(){
+    @Then("I see the alert message with {string}")
+    public void checkAlertMessageText(String mssg){
         LoginBase base = new LoginBase(BrowserConfig.getDriver());
-        base.checkLoginAlert();
+        base.checkLoginAlert(mssg);
+        base.clickOnAlertMessage();
     }
-
-
 }
