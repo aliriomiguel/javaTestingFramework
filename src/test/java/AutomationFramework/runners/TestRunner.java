@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/Features"},
         publish = false,
         glue = {"AutomationFramework/step_definitions"},
-        tags = "@Search",
+        tags = "@login",
         dryRun =false
 )
 public class TestRunner {

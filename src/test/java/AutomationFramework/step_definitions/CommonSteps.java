@@ -21,7 +21,7 @@ public class CommonSteps {
     @And("I visit {string}")
     public void visitURL(String url){
         CommonBase base = new CommonBase(BrowserConfig.getDriver());
-        base.goToURL(url);
+        base.goToURL("https://"+url);
     }
 
     @After

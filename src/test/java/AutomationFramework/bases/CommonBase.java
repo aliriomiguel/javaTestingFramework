@@ -9,7 +9,7 @@ public class CommonBase {
         this.driver = driver;
     }
     public void goToURL(String url) {
-        System.out.println("Opening URL...");
+        System.out.println("Opening URL..."+ url);
         driver.get(url);
     }
 }
