@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeaa0c21-7e25-4166-ac36-0f466520b45b" name="Changes" comment="added login scenario for login with privacy policy login test">
+    <list default="true" id="aeaa0c21-7e25-4166-ac36-0f466520b45b" name="Changes" comment="added the rest of the scenarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/LoginBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/bases/LoginBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationFramework/step_definitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/FE/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/FE/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Drivers/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680703604290</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added the rest of the scenarios">
+      <created>1680708016919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680708016919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +133,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added full search scenario" />
     <MESSAGE value="added login scenario for login with privacy policy login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added login scenario for login with privacy policy login test" />
+    <MESSAGE value="added the rest of the scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the rest of the scenarios" />
   </component>
 </project>
